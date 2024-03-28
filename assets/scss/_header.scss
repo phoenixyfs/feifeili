@@ -51,6 +51,9 @@
 .footer {
     padding: 120px 20px 20px 20px;
     font-size: 12px;
+    @include media-breakpoint-down(sm) {
+        padding: 120px 0px 20px 0px; 
+    }
     .flex {
         justify-content: flex-end;
     }
