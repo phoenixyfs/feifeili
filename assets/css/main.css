@@ -152,11 +152,15 @@ h1 {
     left: 150px; }
     @media (max-width: 575.98px) {
       .kv-text {
-        bottom: 30px;
-        left: 30px; } }
+        bottom: 40px;
+        left: 16px; } }
   .kv h1 {
     margin-top: 25px;
     margin-bottom: 35px; }
+    @media (max-width: 575.98px) {
+      .kv h1 {
+        margin-top: 20px;
+        margin-bottom: 25px; } }
   .kv h5 {
     font-weight: 600;
     text-transform: uppercase;
@@ -208,6 +212,9 @@ h1 {
     left: 0;
     bottom: 0;
     padding: 60px 80px; }
+    @media (max-width: 575.98px) {
+      .landing-research-text {
+        padding: 40px; } }
 
 .landing-news-Lcol {
   padding-left: 30px; }
