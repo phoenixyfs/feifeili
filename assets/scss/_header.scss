@@ -13,13 +13,14 @@
 .logo {
     img {
         width: 93px;
+        transition: 0.5s;
         @include media-breakpoint-down(sm) {
             width: 80px;
         }
     }
     &-shrink {
         img {
-            width: 60px;
+            width: 70px;
         }
     }
 }
